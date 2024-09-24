@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>aca44653-4404-4df3-9117-ccea8c523c8a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="3.15.3" />
+    <PackageReference Include="Discord.Net.Core" Version="3.15.3" />
+    <PackageReference Include="Discord.Net.Rest" Version="3.15.3" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="3.15.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
